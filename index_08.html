@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário
+        de Cadastro de inclusão de Texto
+    </title>
+</head>
+<body>
+    <form action="" method="get">
+        <label>Nome:</label><input type="text" name="nome"><br>
+        <label>Cargo:</label>
+        <select name="role">
+            <option value="">Selecione o cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option selected value="presidente">Presidente</option>
+        </select>
+        <br>
+        <label>Assunto:</label><input type="subject"><br>
+        <label>Mensagem:</label>
+        <textarea rows="10" cols="50" name="mensagem"></textarea><!--O textarea é para colocar um texto com mais linhas-->
+        <!--Usando o (textarea rows="10" cols="100")é para colocar um certo número linhas ou colunas determinada em um texto-->
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

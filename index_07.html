@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro Select Box</title>
+</head>
+<body>
+    <form onsubmit="" method="get">
+        <label>Nome:</label><input type="text" name="name"><br>
+        <label>Cargo:</label>
+        <!--Usando o atributo multiple você preciona Ctrl oun Suift e seleciona de uma só vez clicando em varíos cargos, Exemplo-->
+        <!--<select name="role" multiple>-->
+        <select name="role"><
+         <!--Usando o selected você prioriza o cargo que vai aparecer primeiro, Exemplo-->
+            <!--<option selected value="gerente">Diretor</option>-->
+            <option value="">Selecione o Cargo</option>
+            <option value="gerente">Diretor</option>
+            <option selected value="diretor">Diretor</option>
+            <option value="presidente">Presidente</option>
+            
+        </select>
+        <br>
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
