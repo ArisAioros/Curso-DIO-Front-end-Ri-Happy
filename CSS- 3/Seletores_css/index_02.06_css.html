@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS Seletores de Atributo</title>
+    <style>
+         /* Seletores: definen em quais elementos nós vamos aplicar o CSS
+        * 1. Seletor de Tag ou Tipo (H1, DIV, LI), são exemplo de seletor de tipo ou teg.
+        * 2. Seletor de Id
+        * 3. Seletor de Classes
+        * 4. Seletor de Universal
+        * 5. Seletor de abributo */
+
+/*Seletor de Atributo interno.Use Cochetes e chaves []{} dentro do style */
+/*Usando o prefixo no atrubuto*/
+  /*  [href^="https:"] {
+        background: lightgreen;
+    } */
+
+    /*[href$="login"] {
+    background: lightgreen;
+    } /*Usando o sufixo no atrubuto*/
+
+    [title*="Streaming"] {
+    background: lightgreen;
+    }/*Usando o sinal de asteristico(*) no atrubuto*/
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a title="Streaming-Neflix" href="htp://www.login.netflix.com">Netflix</a>
+            </li>
+            <li>
+                <a title="Prime Streaming" href="http://www.primevideo.com/login">Prime Video</a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://www.spotify.com">Spotify</a>
+            </li>
+            <li>
+                <a title="Streaming">Disney Plus</a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
