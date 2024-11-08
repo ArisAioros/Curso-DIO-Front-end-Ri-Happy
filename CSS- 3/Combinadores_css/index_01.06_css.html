@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS Conbinadores irmão adjacente e combinadores em geral</title>
+    <style>
+        /*Combiadores: qual tipo de releção entre 2 seletores.
+        1. Combinador descendente (espaço)
+        2. Combinador filho(>)*
+        3. combinador irmão adjacente (+)
+        4. combinador irmão em geral(~)
+        [SELETOR] [COMBINADOR] [SELETOR]
+        */
+/*Combinando vario combinadoris juntos*/
+       .fundo-verde span p + p {
+        background: lightgreen;
+       }
+    </style>
+</head>
+<body>
+    <div class="fundo-verde">
+        <p>Elemento 01</p>
+        <p>Elemento 02</p>
+    <span>
+        <p>Elemento 03</p>
+        <p>Elemento 04</p>
+    </span>
+        <p>Elemento 05</p>
+        <p>Elemento 06</p>
+    </div>
+</body>
+</html>

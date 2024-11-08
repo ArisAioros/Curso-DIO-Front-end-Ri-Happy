@@ -13,16 +13,23 @@
         4. combinador irmão em geral(~)
         [SELETOR] [COMBINADOR] [SELETOR]
         */
-        li {
-            color: red;
-        }
-        li li {
-            color: green;
-        }
-        /* buscando seletor por (id)*/
-        #lista-01 li {
-            background: lightblue;
-        }
+
+        /*Combinadores de dencendencia*/
+       .fundo-verde li {
+        background: lightgreen;
+       }
+
+       .fundo-azul li {
+        background: lightblue;
+       }
+
+       li {
+        color: red;
+       }
+
+       .fundo-verde #sublista-01 li {
+        color: black;
+       }
     </style>
 </head>
 <body>

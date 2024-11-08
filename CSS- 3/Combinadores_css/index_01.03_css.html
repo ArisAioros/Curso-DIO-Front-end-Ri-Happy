@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS Conbinadores filho</title>
+    <style>
+        /*
+        Combiadores: qual tipo de releção entre 2 seletores.
+        1. Combinador descendente (espaço)
+        2. Combinador filho(>)*
+        3. combinador irmão adjacente (+)
+        4. combinador irmão em geral(~)
+        [SELETOR] [COMBINADOR] [SELETOR]
+        */
+        div p {
+            background: lightgreen;
+        }
+        /*Usando o combinador para filho diretos da div */
+        div > p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Parágrafo 1 dentro da div</p>
+        <p>Parágrafo 2 dentro da div</p>
+        <span>
+            <p>Parágrafo 3 dentro da div, dentro do epan.</p>
+        </span>
+    </div>
+
+    <p>Parágrafo 4 fora da viv</p>
+    <p>Parágrafo 5 fora da div</p>
+</body>
+</html>
