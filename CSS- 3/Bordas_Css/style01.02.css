@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/Bordas-CSS');
+
+* {
+    font-family: Roboto;
+}
+
+.exemplo {
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+    border-width: 10px;/*No lugar de número você também pode usar palavras chaves como (thin, medium, Thick) nas bordas*/
+    border-style:solid ;
+    /*O valor padão dessa propriedade é (nome). Alem disso temos (dashed, dotted,double, groove, ridge, inset, outset.)*/
+
+    /*Alterar as bordas usando valores separado e diferentes em cada lodo (dotted dashed solid double) no sentido horario*/
+
+    /*Alterar as bordas usando valores separado e diferentes em cada lodo (10px 20px 30px 40px)*/
+}
