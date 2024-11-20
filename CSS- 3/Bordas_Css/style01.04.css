@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/Bordas-css2?family=Roboto');
+
+
+* {
+    font-family: "Roboto";
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height:200px;
+    border: 20px solid;
+}
+
+#exemplo-1{
+    border-image-source: url('imagens/Rosto_192x192.png');
+}
+
+#exemplo-2{
+    border-image-source: linear-gradient(red, blue);
+}

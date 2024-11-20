@@ -4,15 +4,27 @@
     font-family: Roboto;
 }
 
-.exemplo {
+/*.exemplo {
     background-color: palevioletred;
     width: 200px;
     height: 200px;
-    border-width: 10px;/*No lugar de número você também pode usar palavras chaves como (thin, medium, Thick) nas bordas*/
-    border-style:solid ;
-    /*O valor padão dessa propriedade é (nome). Alem disso temos (dashed, dotted,double, groove, ridge, inset, outset.)*/
+    border-width: 10px;
+    border-color: blue greenyellow coral black;
+    border-style:solid;
+}*/
+    /*No lugar de número você também pode usar palavras chaves como (thin, medium, Thick) nas bordas*/
+   
+    /*O valor padrão dessa propriedade é (nome). Alem disso temos (dashed, dotted,double, groove, ridge, inset, outset.)*/
 
-    /*Alterar as bordas usando valores separado e diferentes em cada lodo (dotted dashed solid double) no sentido horario*/
+    /*Alterar as bordas usando valores separado e diferentes em cada lodo (dotted dashed solid double) no sentido horario. Da mesma forma com a cor das bordas usando (border-color)*/
 
     /*Alterar as bordas usando valores separado e diferentes em cada lodo (10px 20px 30px 40px)*/
-}
+    .exemplo{
+        background-color: palevioletred;
+        width: 200px;
+        height: 200px;
+
+        border-top: 10px solid rgb(83, 8, 84);
+        border-bottom-style:double;
+        border-bottom-width:20px;
+    }
