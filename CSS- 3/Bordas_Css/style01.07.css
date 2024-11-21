@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/Bordas-css2?family=Roboto');
+
+
+* {
+    font-family: "Roboto";
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height:200px;
+    border: 30px solid;
+    margin: 50px auto;
+}
+/*adcionando bordar imagens resumidas em dois objeto ao mesmo tempo.*/
+#exemplo-resumido {
+    border-image: url('imagens/Rosto_192x192.png') 16 / 10px / 1 round;
+}
+
+#exemplo-1 {
+    border-image-source: url('imagens/Rosto_192x192.png');
+    border-image-repeat: round;
+    border-image-slice: 16;
+}
+
+#exemplo-2{
+    border-image-source: linear-gradient(rgb(0, 145, 255), blue);
+    border-image-slice: 10;
+}

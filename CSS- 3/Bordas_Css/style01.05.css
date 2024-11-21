@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/Bordas-css2?family=Roboto');
+
+
+* {
+    font-family: "Roboto";
+}
+
+.exemplo {
+    background-color: black;
+    width: 200px;
+    height:200px;
+    border: 30px solid;
+}
+/* border interna no sentido horário: 20px 10px 30px 50px;*/
+/*adicione uma barra entre os valoves(/)para dar mais efeltos. Ou utilize o valor mais    sinal de (10%) no lugar (px) mais também palavra (auto)*/
+#exemplo-1{
+    border-image-source: url('imagens/Rosto_192x192.png');
+    border-image-repeat: repeat;
+    border-image-width: 10px 20px 30px 40px;
+}
+
+
+#exemplo-2{
+    border-image-source: linear-gradient(rgb(0, 145, 255), blue);
+    border-image-slice: 10;
+}
