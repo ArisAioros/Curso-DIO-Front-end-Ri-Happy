@@ -1,0 +1,6 @@
+/*O sinal de asteristico(*) é um seletor universal */
+* {
+   font-family:'Tissmes New Roman', Arial, fantasy;
+}
+/*Usa o sinal de aspas("Time New Roman")quando uma fonte tem mais de uma palavaras em sua formação.*/
+/*Quando uma fonte não é encontrada use mais opções ('Times New Rooman', 'Arial', fantasy)*/

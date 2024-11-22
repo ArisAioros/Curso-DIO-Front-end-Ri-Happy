@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Roboto;
+    src: local(), url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+/*Use o (local(), quando não for encontrado o arquivo da fornte expecifica.*/
+
+/*Adicione quastas fontes precisar dessa forma.*/
+
+@font-face {
+    font-family: Batata;
+    src: url('../fonts/Roboto/Roboto-Italic.ttf');
+}
+* {
+    font-family: Roboto;
+}
+
+h1 {
+    font-family: Batata;
+}
