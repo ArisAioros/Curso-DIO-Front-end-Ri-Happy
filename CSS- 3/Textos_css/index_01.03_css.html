@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha-CSS - Decoração de Textos </title>
+    <style> 
+    /* Ostilize linha de texto com tag e propriedades: */
+    /*(text-decoration:none) Remove linha no texto*/  
+    /* (text-decoration:underline) Coloca linhas abaixo no texto */
+    /*(text-decoration:line-through) Para riscar o texto)*/
+    /*(text-decoration:overline) Coloca linha acima no texto*/
+        h1 + p {
+            text-decoration: none;
+        }
+        /* Ostilize linha de texto com tag e propriedade*/
+        /* text-decoration-line (underline, overline,line-through,)*/
+        /* text-decoration-style (solid, double,dotted, dashed,wavy)*/
+        /* text-decoration-color (red,blue, etc..)*/
+        /* text-decoration-thickness(2px, ) */
+        /* Resumindo propriedade em uma unica linha:(text-decoration:underline solid red 1px) */
+
+        a { 
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>text-decoration</code></h1>
+    <P>
+        Adiciona ou remove linhas no nosso texto: sejam linhas em cima, no meio, ou embaixo.
+    </P>
+
+    <p>
+        É uma propriedade abreviada de:
+    </p>
+
+    <ul>
+        <li><code>text-decoration-line</code></li>
+        <li><code>text-decoration-style</code></li>
+        <li><code>text-decoration-color</code></li>
+        <li><code>text-decoration-thickness</code></li>
+    </ul>
+    
+    <a href="#">Link de Exemplo</a>
+    
+</body>
+</html>
