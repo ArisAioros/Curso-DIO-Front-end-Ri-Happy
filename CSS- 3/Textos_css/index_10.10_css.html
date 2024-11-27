@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha-CSS - Text-Overflow</title>
+    <style>
+    .exemplo {
+    width: 200px;
+    color: black;
+    background-color: chartreuse;
+    }
+
+    p {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #exemplo-01 {
+        text-overflow: clip;
+    }
+
+    #exemplo-02 {
+        text-overflow: ellipsis;
+    }
+/* O exemplo 03 só funciona no navagador fire-fox: recomendo usar ellipsis */
+    #exemplo-03 {
+        text-overflow: "__";
+    }
+    </style>
+</head>
+<body>
+    <h2>Propridade <code>text-overflow></code></h2>
+    <p>Defime a orientação do texto (vertical ou horizontal).</p>
+
+    <i>Exemplo: <code>text-overflow: clip;</code></i>
+
+    <p id="exemplo-01" class="exemplo">Chega de saudade A realidade é que sem ela não há paz.</p>
+
+    <code>text-overflow: ellipsis;</code>
+    <p id="exemplo-02" class="exemplo">Chega de saudade A realidade é que sem ela não há paz.</p>
+
+    <code>text-overflow: string;</code>
+    <p id="exemplo-03" class="exemplo">Chega de saudade A realidade é que sem ela não há paz.</p>
+    
+</body>
+</html>
