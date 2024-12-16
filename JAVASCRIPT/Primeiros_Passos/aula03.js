@@ -1,4 +1,4 @@
-/*hoperador de condicional if() {} */
+/*Operador de condicional if() {} */
 const numero = 12;
 
 const numeroDivixivelPor5 = (numero % 5) === 0;
